@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+npm-debug.log
+dist/static/
+build/
+config/
+static/
+index.html
+.babelrc
+.editorconfig
+.eslintrc.js
+.eslintignore
+src/main.js
+src/App.vue
+src/assets
