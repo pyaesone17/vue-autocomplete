@@ -1,18 +1,11 @@
-# autocomplete
+# Minimal Vue Autocomplete
 
-> A Vue.js project
+## with avartar
 
-## Build Setup
+![alt tag](https://raw.githubusercontent.com/pyaeosone17/vue-autocomplete/master/readme.png)
 
-``` bash
-# install dependencies
-npm install
+## without avartar
 
-# serve with hot reload at localhost:8080
-npm run dev
+![alt tag](https://raw.githubusercontent.com/pyaeosone17/vue-autocomplete/master/readme_1.png)
 
-# build for production with minification
-npm run build
-```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
