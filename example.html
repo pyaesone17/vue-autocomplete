@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css" href="/dist/static/css/autocomplete.css"></style>
+</head>
+
+<body>
+
+<div id="app">
+    <auto-complete 
+        input-class="Search__input form-control" 
+        input-name="keyword"
+        :redirect="true"
+        :redirect-blank="true"
+        v-bind:hightlight="{ status: false, color: 'blue' }"
+        remoteUrl="http://passport.app/testing"
+        v-bind:list='[{"text":"Striiv fusion bio activity tracker & smart watch"}, 
+                     {"text":"Striiv fusion Lite activity tracker & smart watch"},
+                     {"text":"Striiv nand activity tracker"},
+                     {"text":"BackBeat go 2 wireless earbuds + charging"},
+                     {"text":"BackBeat pro wireless headphones + mic"},
+                     {"text":"Sound blaster free portable bluetooth\u00ae speaker"},
+                     {"text":"Uno capsule speaker (Red)"},
+                     {"text":"Naga mmo gaming mouse","redirectUrl" : "https://web.facebook.com/?_rdr"},
+                     {"text":"Striiv fusion activity tracker & smart watch"}]' 
+    ></auto-complete>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.3/vue.js"></script>
+<script type="text/javascript" src="dist/vue-autocomplete.js"></script>
+<script type="text/javascript">
+    new Vue({
+        el: '#app',
+        components : {
+            'auto-complete': AutoComplete
+        }
+    })
+</script>
+</body>
+</html>
